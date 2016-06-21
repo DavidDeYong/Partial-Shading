@@ -318,14 +318,14 @@ assignin('base','ArregloCorriente',ArrayCorriente);
 assignin('base','ArregloPotencia',ArrayPotencia);
 
 figure(1)
-plot(ArrayTension',ArrayPorencia')
+plot(ArregloTension',ArregloPotencia')
 grid on
 title('Potencia vs Voc')
 xlabel('Tensión de circuito abierto')
 ylabel('Potencia')
 grid on
 figure(2)
-plot(ArrayTension',ArrayCorriente')
+plot(ArregloTension',ArregloCorriente')
 grid on
 title('Coriente vs Voc')
 xlabel('Tensión de circuito abierto')
