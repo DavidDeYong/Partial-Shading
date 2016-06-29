@@ -318,7 +318,7 @@ assignin('base','ArregloCorriente',ArrayCorriente);
 assignin('base','ArregloPotencia',ArrayPotencia);
 
 figure(1)
-plot(ArrayTension',ArrayPorencia')
+plot(ArrayTension',ArrayPotencia')
 grid on
 title('Potencia vs Voc')
 xlabel('Tensión de circuito abierto')
