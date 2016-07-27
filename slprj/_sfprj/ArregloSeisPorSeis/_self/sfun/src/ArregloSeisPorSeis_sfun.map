@@ -1,6 +1,6 @@
  ArregloSeisPorSeis_sfun
 
- Timestamp is 5761503d (Wed Jun 15 09:55:25 2016)
+ Timestamp is 577bf477 (Tue Jul 05 14:55:03 2016)
 
  Preferred load address is 0000000180000000
 
@@ -30,8 +30,8 @@
 
   Address         Publics by Value              Rva+Base               Lib:Object
 
- 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
  0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
  0000:00000000       __ImageBase                0000000180000000     <linker-defined>
  0001:00000000       sf_c1_ArregloSeisPorSeis_get_eml_resolved_functions_info 0000000180001000 f   c1_ArregloSeisPorSeis.obj
  0001:000007b0       sf_c1_ArregloSeisPorSeis_get_check_sum 00000001800017b0 f   c1_ArregloSeisPorSeis.obj
@@ -916,8 +916,8 @@
  0001:000c8a38       _CRT_INIT                  00000001800c9a38 f   MSVCRT:crtdll.obj
  0001:000c8dd0       _DllMainCRTStartup         00000001800c9dd0 f   MSVCRT:crtdll.obj
  0001:000c8e0e       strncpy                    00000001800c9e0e f   MSVCRT:MSVCR100.dll
- 0001:000c8e30       __chkstk                   00000001800c9e30 f   MSVCRT:chkstk.obj
  0001:000c8e30       _alloca_probe              00000001800c9e30     MSVCRT:chkstk.obj
+ 0001:000c8e30       __chkstk                   00000001800c9e30 f   MSVCRT:chkstk.obj
  0001:000c8e7e       longjmp                    00000001800c9e7e f   MSVCRT:MSVCR100.dll
  0001:000c8e84       strncmp                    00000001800c9e84 f   MSVCRT:MSVCR100.dll
  0001:000c8e8a       ceil                       00000001800c9e8a f   MSVCRT:MSVCR100.dll
@@ -1152,10 +1152,10 @@
  0002:00000b20       __real@41d03fc151000000    00000001800cbb20     ArregloSeisPorSeis_sfun.obj
  0002:00000b28       __real@41c439d4aa000000    00000001800cbb28     ArregloSeisPorSeis_sfun.obj
  0002:00000b30       __real@41ea8f1e72e00000    00000001800cbb30     ArregloSeisPorSeis_sfun.obj
- 0002:00000b38       __real@41d1c3eb2ec00000    00000001800cbb38     ArregloSeisPorSeis_sfun.obj
- 0002:00000b40       __real@41c5096c28000000    00000001800cbb40     ArregloSeisPorSeis_sfun.obj
- 0002:00000b48       __real@41ed185c72c00000    00000001800cbb48     ArregloSeisPorSeis_sfun.obj
- 0002:00000b50       __real@41d5016831400000    00000001800cbb50     ArregloSeisPorSeis_sfun.obj
+ 0002:00000b38       __real@41edfc2e60600000    00000001800cbb38     ArregloSeisPorSeis_sfun.obj
+ 0002:00000b40       __real@41e84bd0d4e00000    00000001800cbb40     ArregloSeisPorSeis_sfun.obj
+ 0002:00000b48       __real@41e5d5c2f1400000    00000001800cbb48     ArregloSeisPorSeis_sfun.obj
+ 0002:00000b50       __real@41ec745c8ce00000    00000001800cbb50     ArregloSeisPorSeis_sfun.obj
  0002:00000b58       __real@41e4d6a188000000    00000001800cbb58     ArregloSeisPorSeis_sfun.obj
  0002:00000b60       __real@41e8e0090f200000    00000001800cbb60     ArregloSeisPorSeis_sfun.obj
  0002:00000b68       __real@41e3534908e00000    00000001800cbb68     ArregloSeisPorSeis_sfun.obj
